@@ -1,0 +1,17 @@
+/* Styles pour la classe container en fonction de la largeur de l'écran */
+@media only screen and (min-width: 321px) and (max-width: 1023px) {
+    html {
+      font-size: 10px !important;
+    }
+  
+    .container {
+      /* Ajoutez ici vos styles spécifiques pour la classe container lorsque les conditions de largeur d'écran sont remplies */
+  
+      /* Exemple : */
+      background-color: #f0f0f0;
+      padding: 20px;
+      border: 1px solid #ccc;
+      margin: 10px;
+    }
+  }
+  
