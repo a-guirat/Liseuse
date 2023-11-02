@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #f1e1de;
+    min-height: 100%;
+    height: 100%;
+
+background-image: linear-gradient(to bottom right, #f1e1de, #d4ebec);
+z-index: 20;
+color: #000;
+position: relative;
+overscroll-behavior: none;
+overflow: hidden;
+  }

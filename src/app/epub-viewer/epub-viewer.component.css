@@ -1,17 +1,51 @@
-/* Styles pour la classe container en fonction de la largeur de l'écran */
-@media only screen and (min-width: 321px) and (max-width: 1023px) {
-    html {
-      font-size: 10px !important;
-    }
-  
-    .container {
-      /* Ajoutez ici vos styles spécifiques pour la classe container lorsque les conditions de largeur d'écran sont remplies */
-  
-      /* Exemple : */
-      background-color: #f0f0f0;
-      padding: 20px;
-      border: 1px solid #ccc;
-      margin: 10px;
-    }
-  }
-  
+#epubjs-view-cbc05c2f-a49a-42a6-8a2c-4ab62604162b {
+  width: 100%; /* La largeur s'ajustera automatiquement à la largeur du conteneur parent */
+  height: auto; /* La hauteur s'ajustera automatiquement en fonction du contenu */
+  border: 1px solid #000;
+  /* Autres styles CSS */
+}
+
+.epub-container {
+  word-spacing: 0px;
+  line-height: 0;
+  vertical-align: top;
+  position: relative;
+  margin: 0 auto; /* Cette règle centre l'élément horizontalement */
+  width: 500px;
+  height: 800px;
+  overflow: hidden;
+  direction: ltr;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+
+.button-container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  font-size: 50px;
+  color: #E2E2E2;
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  text-decoration: none;
+}
+
+#prevButton {
+  left: 0;
+  margin-right: 600px; 
+}
+
+#next {
+  right: 0;
+ 
+}

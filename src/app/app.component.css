@@ -1,0 +1,25 @@
+main {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    height: 100vh; /* Cela garantit que main prend toute la hauteur de la fenêtre */
+}
+app-epub-viewer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+@media (min-width: 600px) {
+    main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 10px; /* Ajustez le padding selon vos besoins */
+        padding-right: 10px; /* Ajustez le padding selon vos besoins */
+    }
+}

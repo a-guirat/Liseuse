@@ -17,7 +17,6 @@ export class MonComposantComponent implements OnInit {
     // Charger le livre électronique
     const book = new Book(epubFilePath);
     
-    // Utilisez l'objet "book" pour interagir avec le livre électronique
-    // Par exemple, vous pouvez accéder aux informations du livre, aux sections, etc.
+   
   }
 }
